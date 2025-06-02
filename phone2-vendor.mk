@@ -248,44 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql \
     vendor/nothing/phone2/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/nothing/phone2/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_abf10238_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_abf10238_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_asf10338a_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_asf10338a_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_asf10338b_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_asf10338b_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_bbf10138_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_bbf10138_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_br015b_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_br015b_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_imx476_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_imx476_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_obf2259_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_obf2259_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_obf2260_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_obf2260_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_ov7251_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_ov7251_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_ov9282_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_ov9282_tuning.json \
-    vendor/nothing/phone2/proprietary/vendor/etc/qvr/tuning/qvrservice_v4l_ov7251_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_v4l_ov7251_tuning.json \
     vendor/nothing/phone2/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/sar/sarconfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/sar/sarconfig.json \
@@ -296,7 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -861,7 +822,6 @@ PRODUCT_PACKAGES += \
     lib-rtpcommon \
     lib-rtpcore \
     lib-rtpsl \
-    libDspIOProxy_stub \
     libFace3DTA \
     libFace3D_hlos \
     libFileMux_proprietary \
@@ -869,7 +829,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMapService \
     libQ6MSFR_manager_stub \
     libQSEEComAPI \
     libQTEEConnector_listener \
@@ -877,8 +836,6 @@ PRODUCT_PACKAGES += \
     libQnnHtp \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
-    libScenescape \
-    libStereoRectifyWrapper \
     libTouchInputVM \
     libTrustedInput \
     libTrustedInputTZ \
@@ -1001,7 +958,6 @@ PRODUCT_PACKAGES += \
     libesesbprovision \
     libeva \
     libeva_util \
-    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libfastcvdsp_stub \
     libfastcvopt \
@@ -1012,7 +968,6 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgnsspps \
     libgrpc++_unsecure_prebuilt \
-    libhalide_hexagon_host \
     libhdr10plus \
     libhdr_stub \
     libhdrdynamic \
@@ -1159,13 +1114,6 @@ PRODUCT_PACKAGES += \
     libqtikeymaster4 \
     libqtikeymint \
     libqtivibratoreffect \
-    libqtr_sdk \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrservice \
-    libqvrservice_client.qti \
     libqwes \
     librcc \
     libremosaic_wrapper \
@@ -1222,7 +1170,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libthreadutils \
     libtime_genoff \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libtzdrmgenprov \
     libubifocus \
@@ -1351,7 +1298,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V1-ndk_platform_vendor \
     vendor.qti.hardware.radio.am@1.0_vendor \
     vendor.qti.hardware.radio.atcmdfwd@1.0_vendor \
     vendor.qti.hardware.radio.ims-V12-ndk_platform_vendor \
@@ -1604,8 +1550,6 @@ PRODUCT_PACKAGES += \
     qti \
     qtigetprop \
     qtisetprop \
-    qvrdatalogger \
-    qvrservicetest64 \
     qwes_cli \
     rmt_storage \
     sensors.qti \
