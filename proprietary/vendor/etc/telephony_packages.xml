@@ -44,6 +44,7 @@
     <packageinfo name="com.qti.telephonysettings.2" path="/system_ext/app/QtiTelephonySettings" />
     <packageinfo name="com.qti.qualcomm.carriertest" path="/system_ext/app/CarrierTest" />
     <packageinfo name="com.qti.qualcomm.datastatusnotification" path="/system_ext/app/datastatusnotification" />
+    <packageinfo name="com.qti.qualcomm.datastatusnotification.2" path="/product/app/datastatusnotification" />
     <packageinfo name="com.qti.qualcomm.deviceinfo" path="/system_ext/app/DeviceInfo" />
     <packageinfo name="com.qti.xdivert" path="/product/app/xdivert" />
     <packageinfo name="com.qualcomm.atfwd" path="/system_ext/app/atfwd" />
