@@ -357,6 +357,27 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/nothing/phone2/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/nothing/phone2/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/double_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/heavy_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/pop.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/pop.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/texture_tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/texture_tick.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/thud.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/thud.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/default/tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/tick.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/double_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/heavy_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/pop.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/pop.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/texture_tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/texture_tick.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/thud.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/thud.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/strong/tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/tick.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/double_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/heavy_click.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/pop.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/pop.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/texture_tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/texture_tick.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/thud.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/thud.he \
+    vendor/nothing/phone2/proprietary/vendor/etc/richtapresources/weak/tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/tick.he \
     vendor/nothing/phone2/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/sar/sarconfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/sar/sarconfig.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
