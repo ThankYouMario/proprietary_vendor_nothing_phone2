@@ -9,9 +9,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/phone2/proprietary/system/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
     vendor/nothing/phone2/proprietary/system/etc/sysconfig/preinstalled-packages-audioeffect.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-audioeffect.xml \
+    vendor/nothing/phone2/proprietary/system_ext/etc/init/sltntc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/sltntc.rc \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
+    vendor/nothing/phone2/proprietary/system_ext/etc/sltntc/sltntc.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc.conf \
+    vendor/nothing/phone2/proprietary/system_ext/etc/sltntc/sltntc_SM8475.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc_SM8475.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/phone2/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
@@ -533,7 +536,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/nothing/phone2/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/nothing/phone2/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
@@ -1751,4 +1753,5 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client
+    xtwifi-client \
+    sltntc
